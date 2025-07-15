@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Authmate</title>
+  <title>auth</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css" />
   <script src="static/js/tailwindconfig.js"></script>
@@ -18,7 +18,7 @@
             <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
           </svg>
         </div>
-        <span class="text-white font-bold text-xl">authmate</span>
+        <span class="text-white font-bold text-xl">auth</span>
       </div>
       <div class="hidden md:flex items-center space-x-6">
         <a href="#challenge" class="text-white hover:text-hack-yellow transition-colors">The Challenge</a>
@@ -88,18 +88,26 @@
         <li>• (Optional) Add a vulnerability and explain how to break it</li>
       </ul>
       <div class="mt-8 text-left max-w-2xl mx-auto">
-        <h3 class="text-2xl font-bold text-white mb-2">Rules</h3>
-        <ul class="list-disc pl-6 text-gray-300 space-y-2">
-          <li>No using libraries or services that do authentication from scratch for you (like Auth0, Firebase Auth, Supabase Auth, Clerk, etc).</li>
-          <li>You <b>can</b> use Firebase, Supabase, or similar platforms <b>just for storing data</b> (like user info, sessions, etc), but not for handling authentication logic.</li>
-          <li>Projects that implement local authentication (like storing users in a JSON or SQL database) will be highly rated!</li>
-          <li>Solutions must work for multiple users (not just a one-off demo for a single person).</li>
-          <li>No browser-only demos, your project should work for real users with real accounts.</li>
-          <li>It's totally fine to use basic session/cookie helpers (like Flask sessions, Express sessions, etc).</li>
-          <li>All code must be your own, and you should explain your creative process!</li>
-          <li><b>App must have a functionality! (not just authentication)</b></li>
-        </ul>
-      </div>
+  <hr class="border-gray-600 mb-4">
+
+  <button id="toggleRules" class="w-full flex items-center justify-between mb-2 focus:outline-none">
+    <h3 class="text-2xl font-bold text-white">Rules</h3>
+    <span id="toggleArrow" class="text-white text-2xl transform transition-transform duration-300">▶</span>
+  </button>
+
+  <ul id="rulesList" class="list-disc pl-6 text-gray-300 space-y-2 hidden">
+    <li>No plug-and-play auth tools (like Auth0, Firebase Auth, Supabase, Clerk, etc).</li>
+    <li>Local auth (like saving users in JSON or SQL) = big points!</li>
+    <li>Your app must work for multiple users - not just a demo for one person.</li>
+    <li>No frontend-only stuff. Real users, real accounts.</li>
+    <li>It’s okay to use simple session/cookie tools (like Flask or Express sessions).</li>
+    <li>Write your own code. Be ready to explain your process!</li>
+    <li><b>Your app needs real features & functionality, not just login screens.</b></li>
+  </ul>
+</div>
+
+
+
     </div>
     
   </section>
@@ -114,20 +122,13 @@
         Need inspo? Try one of these or invent your own!
       </p>
       <div class="grid md:grid-cols-2 gap-8 text-left">
-        <ul class="space-y-4 text-lg text-gray-200">
+        <ul class="space-y-4 text-rg text-gray-200">
           <li>• Log in by solving a riddle</li>
           <li>• Authenticate with dance moves and pose detection</li>
           <li>• Log in using your Minecraft server stats</li>
-          <li>• One-time password that's actually a rickroll</li>
+          <li>• Build in a vulnerability and show how to hack it to log in</li>
           <li>• Log in by clicking the right cat gif</li>
           <li>• Auth via AI that decides if you're you based on your writing tone</li>
-        </ul>
-        <ul class="space-y-4 text-lg text-gray-200">
-          <li>• Voice authentication: sing a song to log in</li>
-          <li>• Take a photo of a random object (like a fork!)</li>
-          <li>• Build in a vulnerability and show how to hack it</li>
-          <li>• Meme-based password system</li>
-          <li>• Anything else that's never been done before!</li>
         </ul>
       </div>
     </div>
@@ -140,14 +141,12 @@
         <span class="text-gradient-yellow">Rewards</span>
       </h2>
       <p class="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-        Complete the challenge and you could win a <b>YubiKey</b> or other cool prizes.<br>
-        (Final rewards may vary. Stay tuned!)
+        Complete the challenge and win a <b>Security Key NFC by Yubico</b>
       </p>
       <div class="flex flex-col items-center">
         <div class="w-32 h-20 bg-white rounded-xl mx-auto mb-6 flex items-center justify-center shadow-lg">
-          <div class="w-6 h-6 bg-hack-green rounded-full animate-pulse"></div>
+          <img src="static/imgs/yubikey.png" alt="">
         </div>
-        <span class="text-lg text-hack-yellow font-bold">Choose your reward: YubiKey or something else awesome!</span>
       </div>
     </div>
   </section>
@@ -159,7 +158,7 @@
         Ready to make Crazy Auth?
       </h2>
       <p class="text-xl text-white/90 mb-8">
-        Join other teens participating on <b>Authmate</b>
+        Join other teens participating on <b>auth</b>
       </p>
       <a href="https://hackclub.slack.com/archives/C0963JU3CSD" class="bg-white text-hack-red px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105">
         Join Slack
@@ -178,7 +177,7 @@
                 <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"/>
               </svg>
             </div>
-            <span class="font-bold text-xl">Authmate</span>
+            <span class="font-bold text-xl">auth</span>
           </div>
           <p class="text-gray-400">teens building funny auhtentication</p>
         </div>

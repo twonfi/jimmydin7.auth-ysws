@@ -30,3 +30,18 @@ document.querySelectorAll('.card-hover').forEach(card => {
         card.style.transition = 'all 0.6s ease';
         observer.observe(card);
     });
+
+    
+
+
+
+  const toggleBtn = document.getElementById('toggleRules');
+  const rulesList = document.getElementById('rulesList');
+  const toggleArrow = document.getElementById('toggleArrow');
+
+  toggleBtn.addEventListener('click', () => {
+    rulesList.classList.toggle('hidden');
+    toggleArrow.classList.toggle('rotate-90');
+  });
+
+
