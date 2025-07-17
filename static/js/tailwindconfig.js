@@ -24,7 +24,7 @@ module.exports = {
                 gradient: {
                     '0%, 100%': {
                         'background-size': '200% 200%',
-                        'background-position': 'left center'
+                        'background-posit                   qion': 'left center'
                     },
                     '50%': {
                         'background-size': '200% 200%',
