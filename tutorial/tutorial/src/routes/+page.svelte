@@ -26,6 +26,21 @@
 		{:else}
 		  <h2>Loading...</h2>
 		{/if}
-		<button id="tutorialButton" on:click={tutorialPage++}>Next -></button>
+		<div id="buttons">
+			<button id="tutorialButtonBack" on:click={() => {
+			 if (tutorialPage > 0) {
+				 tutorialPage--;
+			 } else {
+				 tutorialPage = 0;
+			 }}}>&lt;- Back</button>
+		<button id="tutorialButtonNext" on:click={tutorialPage++}>Next -></button>
+		</div>
 	</div>
 </div>
+
+<style>
+	#buttons {
+		display: flex;
+		flex-direction: row;
+	}
+</style>
