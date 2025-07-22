@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authly Tutorial</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <style>
+      body { background: #18181b; }
+      .lang-tab { transition: background 0.2s, color 0.2s; }
+      .lang-tab.selected { box-shadow: 0 2px 8px #facc15; }
+      #code-box { min-height: 120px; }
+      pre { margin: 0; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+    <nav class="relative z-10 p-6 mb-8">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <span class="text-white font-bold text-2xl tracking-wide">authly</span>
+      </div>
+      <div class="hidden md:flex items-center space-x-6">
+        <span class="text-white hover:text-hack-yellow transition-colors">Tutorial</span>
+        <a href="/" class="text-white hover:text-hack-yellow transition-colors">Home</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-w-2xl mx-auto px-4">
+    <div id="json-container" class="bg-gray-800 rounded-2xl shadow-lg p-8 mb-8"></div>
+    <div id="code-section" class="mb-10">
+      <div id="language-tabs" class="flex mb-4 gap-2"></div>
+      <div id="code-box" class="bg-gray-900 rounded-xl p-6 overflow-x-auto border-2 border-gray-700 mt-2 shadow-inner">
+        <pre class="!bg-transparent"><code id="code-content" class="block text-base"></code></pre>
+      </div>
+    </div>
+    <div class="flex gap-6 justify-center mb-10">
+      <button id="back-btn" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-6 rounded-lg shadow">Back</button>
+      <button id="next-btn" class="bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-2 px-6 rounded-lg shadow">Next</button>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="tutorial.js"></script>
+
+</body>
+</html>
