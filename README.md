@@ -1,6 +1,6 @@
-# Auth
+# Authly
 
-**Auth** is a [Hack Club](https://hackclub.com) **YSWS (You Ship, We Ship)** program where teenagers build wild, weird, and never-before-seen authentication systems - and they get something shipped to them in return.
+**Authly** is a [Hack Club](https://hackclub.com) **YSWS (You Ship, We Ship)** program where teenagers build wild, weird, and never-before-seen authentication systems - and they get something shipped to them in return.
 
 ## Tech-Stack
 Simple static website with:
