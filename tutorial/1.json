@@ -1,9 +1,0 @@
-{
-    "id": 1,
-    "title": "What is Authentication?",
-    "description": "Learn what authentication is and why it's important in apps.",
-    "content": "Authentication is how websites or apps identify who you are. Think of it as a digital 'ID check'. Logging in is the most common form of authentication.\n\nIn this tutorial, we’ll teach you how to build authentication yourself. You'll see small snippets of code — not a full working system yet. By the end, you'll understand how each piece works.",
-    "code_snippets": {},
-    "next": 2
-  }
-  
