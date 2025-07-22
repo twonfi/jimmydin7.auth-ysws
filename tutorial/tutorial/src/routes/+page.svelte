@@ -22,6 +22,7 @@
 		{#if tutorials[tutorialPage]}
 		  <h2>{tutorials[tutorialPage].title}</h2>
 			<h3>{tutorials[tutorialPage].description}</h3>
+			<p>{tutorials[tutorialPage].content}</p>
 		{:else}
 		  <h2>Loading...</h2>
 		{/if}
