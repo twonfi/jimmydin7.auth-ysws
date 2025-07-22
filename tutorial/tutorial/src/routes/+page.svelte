@@ -23,6 +23,12 @@
 		  <h2>{tutorials[tutorialPage].title}</h2>
 			<h3>{tutorials[tutorialPage].description}</h3>
 			<p>{tutorials[tutorialPage].content}</p>
+				{#if tutorials[tutorialPage].code_snippets}
+					{#each Object.entries(tutorials[tutorialPage].code_snippets) as [framework, snippet]}
+						<h4>{framework}</h4>
+						<pre><code class="language-{snippet.language}">{snippet.code}</code></pre>
+					{/each}
+				{/if}
 		{:else}
 		  <h2>Loading...</h2>
 		{/if}
