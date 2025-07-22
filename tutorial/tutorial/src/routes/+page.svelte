@@ -21,6 +21,7 @@
 	<div id="tutorial">
 		{#if tutorials[tutorialPage]}
 		  <h2>{tutorials[tutorialPage].title}</h2>
+			<h3>{tutorials[tutorialPage].description}</h3>
 		{:else}
 		  <h2>Loading...</h2>
 		{/if}
