@@ -45,6 +45,14 @@ Here are some ideas to get you started:
 
 Remember: The more original and creative your project is, the better! These are just starting points - feel free to come up with your own unique ideas!
 
+## 🤝 Need Help?
+
+Join the [#authly](https://hackclub.slack.com/archives/authly) channel on the Hack Club Slack to:
+- Get help with your project
+- Share your progress
+- Connect with other participants
+- Ask questions about the program
+
 ## Tech-Stack
 Simple static website with:
 - html
