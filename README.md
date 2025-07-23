@@ -4,7 +4,9 @@ Authly is a [You Ship We Ship](https://ysws.hackclub.com) program that rewards t
 
 ## 🎯 The Challenge
 
-Create an original authentication flow that is not frontend only, it actually saves and uses accounts. If your submission is approved, you'll receive yubikey to enhance your security!
+Create an original authentication flow that is not frontend only, it actually saves and uses accounts. 
+This authentication flow should be unique and it can be as wacky as you want, as long as it is not a simple login form. 
+If your submission is approved, you'll receive a yubikey to enhance your security!
 
 ## 🌐 Resources
 
