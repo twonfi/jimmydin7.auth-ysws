@@ -26,6 +26,13 @@ It **cannot** be a simple login form, it should be something that is not commonl
 
 ## 🚀How to Submit
 
+As of now, the submission process is not finalised, since this YSWS is currently a work in progress, you can [RSVP](https://airtable.com/appLMKxJKjiqcNlSg/pagtuibimlUPCjORV/form) so you are notified when the YSWS is live.  
+
+> [!WARNING]
+> This means no time is being counted, so any time you spend on this project will not be counted towards your YSWS submission.
+
+
+
 
 ## Tech-Stack
 Simple static website with:
