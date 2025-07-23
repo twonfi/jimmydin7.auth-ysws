@@ -20,6 +20,8 @@ If your submission is approved, you'll receive a yubikey to enhance your securit
 2. **Unique Authentication Flow**: The authentication flow should be unique and not a simple login form. It can be as creative as you want, but it should not be frontend only.
 It **cannot** be a simple login form, it should be something that is not commonly seen in other authentication flows.
 
+3. **Originality**: It must not be a remake of an existing authentication flow or someone else's.
+
 ## Tech-Stack
 Simple static website with:
 - html
