@@ -12,7 +12,7 @@ If your submission is approved, you'll receive a yubikey to enhance your securit
 
 ## 🌐 Resources
 
-- Website: [https://jimmydin7.github.io/auth-ysws/](https://jimmydin7.github.io/auth-ysws/)
+- Website: https://authly.hackclub.com
 - Slack Channel: [#authly](https://hackclub.slack.com/archives/C0963JU3CSD)
 
 ## 📝 Submission Requirements
