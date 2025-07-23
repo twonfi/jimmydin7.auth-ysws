@@ -286,7 +286,7 @@ function displayTutorial(id) {
     if (window.Prism) Prism.highlightElement(codeContent);
   } else {
     codeContent.className = 'block text-base';
-    codeContent.textContent = 'No code for this language.';
+    codeContent.textContent = 'This tutorial includes no code snippets.';
     codeBox.style.display = '';
   }
 }
