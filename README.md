@@ -34,6 +34,16 @@ As of now, the submission process is not finalised, since this YSWS is currently
 ## 🎁Reward
 If your submission is approved, you'll receive a yubikey from [yubico](https://www.yubico.com) to enhance your security!
 
+## 💡Project Ideas
+Here are some ideas to get you started:
+- Log in by solving a riddle
+- Authenticate with dance moves and pose detection 
+- Log in using your Minecraft server stats
+- Build in a vulnerability and show how to hack it to log in
+- Log in by clicking the right cat gif
+- Authly via AI that decides if you're you based on your writing tone  
+
+Remember: The more original and creative your project is, the better! These are just starting points - feel free to come up with your own unique ideas!
 
 ## Tech-Stack
 Simple static website with:
