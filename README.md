@@ -16,11 +16,10 @@ If your submission is approved, you'll receive a yubikey to enhance your securit
 ## 📝 Submission Requirements
 
 1. **Self-Written**: Your program must be self-written and should not use any plug & play framework such as Firebase, Supabase, Clerk etc
-
 2. **Unique Authentication Flow**: The authentication flow should be unique and not a simple login form. It can be as creative as you want, but it should not be frontend only.
 It **cannot** be a simple login form, it should be something that is not commonly seen in other authentication flows.
-
 3. **Originality**: It must not be a remake of an existing authentication flow or someone else's.
+4. **Open Source**: Your code must be open source and available on GitHub.
 
 ## Tech-Stack
 Simple static website with:
