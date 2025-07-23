@@ -24,6 +24,8 @@ It **cannot** be a simple login form, it should be something that is not commonl
 6. **Fully Functional**: Your app must work for multiple users - not just a demo for one person. No frontend-only stuff. Real users, real accounts. It’s okay to use simple session/cookie tools (like Flask or Express sessions).
 7. **Coding Time Tracking**:  You must track all your coding time using Hackatime. A minimum of 6-10 hours of logged development time is required for your submission to be eligible.
 
+## 🚀How to Submit
+
 
 ## Tech-Stack
 Simple static website with:
