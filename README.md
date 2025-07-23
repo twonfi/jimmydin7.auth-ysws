@@ -31,7 +31,8 @@ As of now, the submission process is not finalised, since this YSWS is currently
 > [!WARNING]
 > This means no time is being counted, so any time you spend on this project will not be counted towards your YSWS submission.
 
-
+## 🎁Reward
+If your submission is approved, you'll receive a yubikey from [yubico](https://www.yubico.com) to enhance your security!
 
 
 ## Tech-Stack
