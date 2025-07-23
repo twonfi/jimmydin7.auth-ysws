@@ -20,6 +20,8 @@ If your submission is approved, you'll receive a yubikey to enhance your securit
 It **cannot** be a simple login form, it should be something that is not commonly seen in other authentication flows.
 3. **Originality**: It must not be a remake of an existing authentication flow or someone else's.
 4. **Open Source**: Your code must be open source and available on GitHub.
+5. **Documentation**: Your code must be well documented and easy to understand. You should also be able to explain your code and the authentication flow in detail.
+
 
 ## Tech-Stack
 Simple static website with:
