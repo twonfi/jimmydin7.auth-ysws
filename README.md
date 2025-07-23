@@ -30,6 +30,7 @@ Simple static website with:
     <li><a href="https://github.com/jimmydin7">jimmydin7</a> (main page + tutorials JSON)</li>
     <li><a href="https://github.com/Spacexplorer11">Spacexplorer11</a> (tutorials loading in Svelte)</li>
     <li><a href="https://github.com/twonfi">twonfi</a> (small typo)</li>
+    <li><a href="https://github.com/yehorscode">yehorscode</a> (logo variations)</li>
   </ul>
 </details>
 
