@@ -24,17 +24,17 @@ It **cannot** be a simple login form, it should be something that is not commonl
 6. **Fully Functional**: Your app must work for multiple users - not just a demo for one person. No frontend-only stuff. Real users, real accounts. It’s okay to use simple session/cookie tools (like Flask or Express sessions).
 7. **Coding Time Tracking**:  You must track all your coding time using Hackatime. A minimum of 6-10 hours of logged development time is required for your submission to be eligible.
 
-## 🚀How to Submit
+## 🚀 How to Submit
 
 As of now, the submission process is not finalised, since this YSWS is currently a work in progress, you can [RSVP](https://airtable.com/appLMKxJKjiqcNlSg/pagtuibimlUPCjORV/form) so you are notified when the YSWS is live.  
 
 > [!WARNING]
 > This means no time is being counted, so any time you spend on this project will not be counted towards your YSWS submission.
 
-## 🎁Reward
+## 🎁 Reward
 If your submission is approved, you'll receive a yubikey from [yubico](https://www.yubico.com) to enhance your security!
 
-## 💡Project Ideas
+## 💡 Project Ideas
 Here are some ideas to get you started:
 - Log in by solving a riddle
 - Authenticate with dance moves and pose detection 
