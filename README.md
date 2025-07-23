@@ -1,3 +1,5 @@
+![Banner](static/logo/banner-authly.png)
+---
 # Authly
 
 Authly is a [You Ship We Ship](https://ysws.hackclub.com) program that rewards teenagers for creating unique and interesting authentication flows with a yubikey from yubico 
